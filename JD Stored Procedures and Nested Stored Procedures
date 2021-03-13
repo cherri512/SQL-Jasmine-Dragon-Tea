@@ -1,5 +1,5 @@
 --Master Code: DDL Create Procedure (Jasmine Dragon Tea Shop Online Operations)
---tblCountry Insert (Corey)
+--tblCountry Insert
 
 CREATE PROCEDURE cac_Country
 @CountryName VARCHAR(50),
@@ -166,7 +166,6 @@ EXEC CAC_NewCustomer1
 @CustAddress  = '545 My Own Way',
 @CustCity  = 'Earth Paradise',
 @CustZip  = '11111'
- 
 GO
  
 EXEC CAC_NewCustomer1
@@ -179,7 +178,6 @@ EXEC CAC_NewCustomer1
 @CustAddress  = '555 Water Way',
 @CustCity  = 'Kanna',
 @CustZip  = '00002'
- 
 GO
  
 EXEC CAC_NewCustomer1
@@ -193,7 +191,9 @@ EXEC CAC_NewCustomer1
 @CustCity  = 'Vero Beach',
 @CustZip  = '32964'
 GO
-tblOrder Stored Procedure (Corey)
+
+
+--tblOrder Stored Procedure
 CREATE PROCEDURE JDGetCustID
 @CFName varchar(50),
 @CLName varchar(50),
@@ -389,7 +389,6 @@ EXEC JD_NEWOrderProduct
 @OP_Quantity = ''
 tblPosition_Type Insert
 
-
 --Insert statements for tblposition_type
 INSERT INTO tblposition_type (positiontype_name, positiontype_descr)
 VALUES ('Part-time', 'Works less than 40 hrs/wk'), 
@@ -397,9 +396,7 @@ VALUES ('Part-time', 'Works less than 40 hrs/wk'),
     ('Contingent', NULL), 
     ('Temporary', 'Short-term position'), 
     ('Executive', 'Leadership Role')
- 
- 
- 
+
 --New Row in tblProduct Stored Procedure:
 CREATE PROCEDURE JD_insertproduct5
 @pname varchar(50),
