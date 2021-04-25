@@ -1,3 +1,5 @@
+--Code by: Fikay Abolade, Peter Carlson, Corey Cherrington, Charles Frahm
+--3/11/2021, IMT 543 - Team 7
 --Zipcodes of Customers who have ordered the most items that are 18 years old and up that 
 --have also spent more than $100 at the Jasmine Dragon in the past two years
 SELECT C.CustomerID, C.Customer_fname, C.Customer_lname, C.zipcode, Count(DISTINCT OP.orderproductID) AS NumProductsOrdered, Total$Spent_2Yrs

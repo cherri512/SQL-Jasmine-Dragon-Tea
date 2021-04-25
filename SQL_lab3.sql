@@ -1,3 +1,4 @@
+--Code by: Corey Cherrington
 /* 1) Write the SQL to determine which students took the most Biology credits during 1980s. */
 
 SELECT TOP 50 WITH TIES St.StudentID, ST.StudentFname, ST.StudentLname, SUM(CO.CREDITS) AS BioCredits

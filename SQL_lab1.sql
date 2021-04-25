@@ -1,3 +1,4 @@
+--Code by: Corey Cherrington
 --Lab #1 
 --1.) Write the SQL code to determine which customers are from the zip code 80471.
 

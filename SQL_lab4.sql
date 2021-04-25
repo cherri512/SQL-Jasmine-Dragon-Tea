@@ -1,3 +1,4 @@
+--Code by: Corey Cherrington
 /* 1.) Write the DDL statements to establish an eighttable database diagram of the following tables to track cars brought into a repair shop:
 MANUFACTURER, MODEL, CAR, CUSTOMER, SERVICE_TYPE, EMPLOYEE, SERVICE, CUSTOMER_SERVICE */
 

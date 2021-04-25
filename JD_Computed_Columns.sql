@@ -1,3 +1,5 @@
+--Fikay Abolade, Peter Carlson, Corey Cherrington, Charles Frahm
+--3/11/2021, IMT 543 - Team 7
 --#1 - Computed Column for Order Product Subtotal
 CREATE FUNCTION fn_JDOrderProductSubtotal (@PK INT)
 RETURNS NUMERIC (10,2)

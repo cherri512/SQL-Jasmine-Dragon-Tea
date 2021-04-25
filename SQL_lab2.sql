@@ -1,3 +1,4 @@
+--Code by: Corey Cherrington
 /* 1.) Which colleges have at least 1 department that meet the following two conditions: have at
 least 4 current staff that have been in the same position for 2 years, have had more than
 10,000 students register for one course since 2007. */

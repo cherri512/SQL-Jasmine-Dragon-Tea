@@ -1,3 +1,5 @@
+--Code by: Fikay Abolade, Peter Carlson, Corey Cherrington, Charles Frahm
+--3/11/2021, IMT 543 - Team 7
 --#1 No new products can be created starting with the letter W.This procedure can be applied to eliminate repeated names of products. 
 CREATE FUNCTION fn_nonewproductsletterW()
 RETURNS INTEGER
